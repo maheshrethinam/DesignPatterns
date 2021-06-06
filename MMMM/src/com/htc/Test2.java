@@ -8,7 +8,7 @@ public class Test2 {
 		
 		int arr[]= {2,1,4,3,7,5,8,6};
 		
-		System.out.println("Before Sort =>>"+Arrays.toString(arr));
+		//System.out.println("Before Sort =>>"+Arrays.toString(arr));
 		arr=sortArr(arr);
 		System.out.println("After Sort =>>"+Arrays.toString(arr));
 		
