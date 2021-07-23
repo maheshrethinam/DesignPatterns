@@ -2,6 +2,8 @@ package com.java.composite.designpatterns;
 
 public class CompositePatternDemo {
 
+	
+	// Testing
 	public static void main(String[] args) {
 		   
 	      Employee CEO = new Employee("John","CEO", 30000);
