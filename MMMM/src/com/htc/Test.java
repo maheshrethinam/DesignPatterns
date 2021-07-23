@@ -1,6 +1,7 @@
 package com.htc;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class Test {
 
@@ -8,9 +9,17 @@ public class Test {
 		
 		int arr[]= {1,9,4,3,2,3,4,5,6};
 		
-		System.out.println("Before Sort =>>"+Arrays.toString(arr));
-		arr=sortArr(arr);
-		System.out.println("After Sort =>>"+Arrays.toString(arr));
+		List list=Arrays.asList(arr);
+		
+		list.stream().sorted().findFirst();
+		
+		System.out.println(list.stream().sorted().findFirst());
+		//System.out.println(list.stream().sorted().findFirst().toString());
+		
+		
+		//System.out.println("Before Sort =>>"+Arrays.toString(arr));
+		//arr=sortArr(arr);
+		//System.out.println("After Sort =>>"+Arrays.toString(arr));
 		
 	}
 	
